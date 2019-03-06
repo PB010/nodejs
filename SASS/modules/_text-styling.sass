@@ -1,0 +1,76 @@
+.intro-text-wrapper
+    +txt-wrapper(1.2rem, 0 0 30px 0)
+    .highlighted-text
+        +txt-highlight($color-green-dark, #ffffff, #ffffff, $color-green-dark)
+        
+
+.highlighted-text2
+    +txt-highlight($color-green-dark, #ffffff, #ffffff, $color-green-dark)
+    background-color: $color-green-light
+    padding: 3px 0
+    border: 7px solid $color-green-light
+    border-right-width: 60px
+    border-left-width: 60px
+    max-width: 620px
+    margin: auto
+    font-size: 1.6rem
+
+
+.text-wrapper
+    +txt-wrapper(1.8rem, 35px 0 18px)
+
+
+.btn-text-primary
+    +txt-wrapper(1.9rem, 12px 12px 10px)
+
+.btn-text-secondary
+    +txt-wrapper(1rem, 0 17px 8px)
+
+.btn-secondary
+    .btn-text-primary
+        +txt-wrapper(1.9rem, 12px 24px 10px)
+        
+.download-list-1
+    +ul-style(none, flex, wrap, row, center, 3px 11px 0 0, 0)
+    
+.download-list-2
+    +ul-style(none, flex, wrap, row, center, 3px 0 0 11px, 0)
+
+.download-item, .download-item-final
+    margin: 4px 4px
+    letter-spacing: 0.8px
+    line-height: 0.8rem
+    a
+        color: $color-green-dark
+
+.download-item
+    border-right: 1px solid $color-green-dark
+    padding-right: 10px
+
+.bottom-logo-1
+    color: #ffffff
+    font-weight: 700
+    letter-spacing: 1.6px
+    padding-top: 3px
+    flex-wrap: nowrap
+    .bottom-logo-thin
+        color: lighten($color-green-dark, 5%)
+        font-weight: 100
+        letter-spacing: normal
+
+.bottom-list
+    +ul-style(none, flex, wrap, row, center, 3px 0 0 11px, 0)
+    flex-wrap: nowrap
+    
+
+.get-help-list, .get-help-final
+    margin: 0 3px
+    flex-wrap: nowrap
+    
+
+.get-help-list
+    border-right: 1px solid $color-font-grey
+    padding-right: 10px
+    
+
+    

@@ -1,0 +1,30 @@
+=txt-highlight($color, $bg-color, $hover-color, $hover-bg-color)
+    color: $color
+    background-color: $bg-color
+    &:hover
+        color: $hover-color
+        background-color: $hover-bg-color
+        cursor: pointer
+
+=txt-wrapper($font-size, $margin)
+    font-size: $font-size
+    margin: $margin
+
+=btn-main($border, $bg-color, $color, $transition)
+    border: $border
+    background-color: $bg-color
+    color: $color
+    transition: $transition
+    &:hover
+        cursor: pointer
+        background-color: lighten($bg-color, 10%)
+
+
+=ul-style($list-style, $display, $flex-wrap, $flex-direction, $justify-content, $margin, $padding)
+    list-style: $list-style
+    display: $display
+    flex-wrap: $flex-wrap
+    flex-direction: $flex-direction
+    justify-content: $justify-content
+    margin: $margin
+    padding: $padding
